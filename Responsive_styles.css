@@ -1,0 +1,85 @@
+html, body{
+      padding:0;
+      margin:0;
+      width:100%;
+ }
+ 
+ article, aside, details, figcaption, figure,
+ footer, header, hgroup, menu, nav, section{
+         display: block;
+  }
+  
+  body{
+       display: -webkit-box;
+       -webkit-box-pack: center;  
+       
+       display:-moz-box;
+       -moz-box-pack: center;
+   }
+   
+   #wrapper{
+        max-width: 960px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        
+        display: -moz-box;
+        -moz-box-orient: vertical;
+        
+        box-orient: verticals;
+    }
+    
+    header {
+           background: #999;
+           padding: 20px;
+     }
+     
+     nav {
+         background: #878787;
+         color: #fff;
+      }
+      
+      nav ul li {
+          display: inline-block;
+          font: bold 10px Arial;
+          padding: 10px;
+       }
+       
+       nav ul li a {
+           color: white;
+           text-decoration: none;
+        }
+        
+        nav ul li a:hover {
+            color:blue;
+            text-decoration:underline;
+         }
+         
+         .container {
+         display:-webkit-box;
+         -webkit-box-orient: horizontal;
+         
+         display:-moz-box;
+         -moz-box-orient: horizontal;
+         
+          }
+          
+          #mainContainer {
+                         background: #f2f3f5;
+                         -webkit-box-flex: 1;
+                         padding: 20px;
+                         
+                         -moz-box-flex: 1;
+           }
+           #rightContainer {
+                           background: #f8f8f8;
+                           width: 300px;
+                           padding: 20px;
+            }
+            
+            #thefooter {
+                       text-align: center;
+                       padding: 20px 0;
+                       background: black;
+                       color: white;
+             }
+
